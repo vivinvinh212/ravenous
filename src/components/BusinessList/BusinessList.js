@@ -4,14 +4,9 @@ import Business from '../Business/Business';
 
 class BusinessList extends React.Component {
     render() {
+        businesses = [<Business />, <Business />, <Business />, <Business />, <Business />, <Business />]
         return (
-            <div className="BusinessList">
-                <Business />
-                <Business />
-                <Business />
-                <Business />
-                <Business />
-                <Business />
+            <div className="BusinessList" business={businesses}>
             </div>
         )
     }
