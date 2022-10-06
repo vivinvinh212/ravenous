@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import BusinessList from '../BusinessList/BusinessList';
 import SearchBar from '../SearchBar/SearchBar';
 
-business = {
+const business = {
   imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
   name: 'MarginOtto Pizzeria',
   address: '1010 Paddington Way',
@@ -16,7 +15,7 @@ business = {
   reviewCount: 90
 }
 
-businesses = [business, business, business, business, business, business]
+const businesses = [business, business, business, business, business, business]
 
 function App() {
   return (

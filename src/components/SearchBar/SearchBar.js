@@ -1,10 +1,10 @@
 import React from 'react';
 import './SearchBar.css';
 
-sortByOptions = {
-    'BestMatch': best_match,
-    'Highest Rated': rating,
-    'MostReviewed': review_count
+const sortByOptions = {
+    'BestMatch': 'best_match',
+    'Highest Rated': 'rating',
+    'MostReviewed': 'review_count'
 }
 
 class SearchBar extends React.Component {
@@ -16,7 +16,7 @@ class SearchBar extends React.Component {
     }
 
     render() {
-        <div className="SearchBar">
+        return <div className="SearchBar">
             <div className="SearchBar-sort-options">
                 <ul>
                     {this.renderSortByOptions}
