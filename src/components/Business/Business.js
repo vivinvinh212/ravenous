@@ -6,8 +6,8 @@ import './Business.css';
 class Business extends React.Component {
     render() {
         return (
-            <div classNameName="Business">
-                <div classNameName="image-container">
+            <div className="Business">
+                <div className="image-container">
                     <img src='https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg' alt='' />
                 </div>
                 <h2>MarginOtto Pizzeria</h2>
